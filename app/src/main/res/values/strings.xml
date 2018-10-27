@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UkayUkay</string>
+
+    <array name="departments">
+        <item>Damielco</item>
+        <item>Celine</item>
+        <item>Levi Stratuss</item>
+        <item>Mango</item>
+        <item>Speedo</item>
+    </array>
+</resources>

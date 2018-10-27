@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.damiel.ukayukay.Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="21dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:id="@+id/txtusernameR"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:id="@+id/txtnameR"
+            android:layout_marginTop="15dp"/>
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            android:id="@+id/txtpasswordR"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:layout_gravity="center"
+            android:id="@+id/btncreateR"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:id="@+id/cancelR"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
